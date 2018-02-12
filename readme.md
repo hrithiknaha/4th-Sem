@@ -9,7 +9,8 @@ Matlab
 
 Numerical
 -Newton Raphson
--Bifactorial 
+-BiSsection
+-Regula Falsi 
 
 Visual Basic
 -Day 2 
