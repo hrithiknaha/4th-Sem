@@ -2,7 +2,7 @@
 
 ## Computer Architecture
 - Upto Encoder & Decoder
-- **TO BE UPDATED**Mux, Priority Encoder, Magnitude Comparator
+- **TO BE UPDATED** Mux, Priority Encoder, Magnitude Comparator
 
 ## Matlab
 - Upto SSB-SC
