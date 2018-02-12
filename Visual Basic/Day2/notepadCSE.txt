@@ -1,0 +1,41 @@
+q1 height of circle and area
+
+q2
+Private Sub Command1_Click()
+Dim bmi As Single
+bmi = Val((Text2.Text) / (Text1.Text ^ 2))
+If bmi < 18.5 Then
+Frame1.BackColor = vbGreen
+ElseIf (bmi > 18.5 And bmi < 22.5) Then
+Frame1.BackColor = vbBlue
+ElseIf (bmi > 22.5 And bmi < 29.5) Then
+Frame1.BackColor = vbCyan
+Else
+Frame1.BackColor = vbRed
+End If
+MsgBox ("Your BMI is " & bmi)
+End Sub
+
+
+q3
+Private Sub Command1_Click()
+Dim avg As Integer
+avg = (Val(Text1(0).Text) + Val(Text1(1).Text) + Val(Text1(2).Text)) / 3
+Label2.Caption = avg
+Select Case avg
+Case 75 To 100
+Label3.Caption = "A"
+Case 65 To 74
+Label3.Caption = "B"
+Case 55 To 64
+Label3.Caption = "C"
+Case 45 To 54
+Label3.Caption = "D"
+Case 35 To 44
+Label3.Caption = "E"
+Case Else
+Label3.Caption = "F"
+End Select
+
+End Sub
+
