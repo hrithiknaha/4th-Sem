@@ -1,16 +1,16 @@
-#Update as of 12/02/2018
+# 4th Sem Laboratory Manual
 
-Computer Architecture
--Upto Encoder & Decoder
-$- Mux, Priority Encoder, Magnitude Comparator
+## Computer Architecture
+- Upto Encoder & Decoder
+- Mux, Priority Encoder, Magnitude Comparator
 
-Matlab
--Upto SSB-SC
+## Matlab
+- Upto SSB-SC
 
-Numerical
--Newton Raphson
--Bisection
--Regula Falsi 
+## Numerical
+- Newton Raphson
+- Bisection
+- Regula Falsi 
 
-Visual Basic
--Day 2 
+## Visual Basic
+- Day 2 
