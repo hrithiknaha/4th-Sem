@@ -1,10 +1,14 @@
 # 4th Sem Laboratory Manual
 
 ## Computer Architecture
-- Upto Encoder & Decoder
+- Basic Gates plus XOR,X-NOR
+- Half Adder & Full Adder
+- Encoder & Decoder
 - **TO BE UPDATED** Mux, Priority Encoder, Magnitude Comparator
 
 ## Matlab
+- Amplitude Modulation & Demodulation
+- **TO BE UPDATED** DSB-SC
 - Upto SSB-SC
 
 ## Numerical
@@ -13,4 +17,6 @@
 - Regula Falsi 
 
 ## Visual Basic
-- Day 2 
+- Vary Dimension of a Circle
+- Calculation of BMI
+- Marks Distribution
