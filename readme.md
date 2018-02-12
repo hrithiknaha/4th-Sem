@@ -9,7 +9,7 @@ Matlab
 
 Numerical
 -Newton Raphson
--BiSsection
+-Bisection
 -Regula Falsi 
 
 Visual Basic
