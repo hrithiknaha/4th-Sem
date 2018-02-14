@@ -5,6 +5,7 @@
 #define acc 0.00001
 int main()
 	{
+		printf("Newton Raphson\n");
 		float a,b,c,x,i,x1;
 		c=0;
 		printf("\nC\t\tF(c)");

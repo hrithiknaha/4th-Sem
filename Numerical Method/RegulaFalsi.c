@@ -4,6 +4,7 @@
 #define acc 0.001
 int main()
 {
+	printf("Regula Falsi \n");
 	float a,b,x;
 	float c=0;
 		printf(".................\n");
