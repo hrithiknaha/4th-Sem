@@ -1,4 +1,4 @@
-Q1
+Q1   SSB-SC
 clc;
 close all;
 clear all;
@@ -47,7 +47,7 @@ ylabel('Amplitude ')
 
 
 
-q2
+q2 Spectrum Of SSBSC
 clc;
 close all;
 clear all;
@@ -122,7 +122,7 @@ pSSB=(pc*(Am/Ac))/4
 fprintf('Power of DSB %f\n',pDSB) 
 fprintf('Power of SSB %f',pSSB) 
 
-q3
+q3 LSB of SSB-SC
 clc;
 close all;
 clear all;
@@ -177,7 +177,7 @@ ylabel('Amplitude ')
 
 
 
-q4
+q4 USB of SSB-SC
 
 clc;
 close all;
