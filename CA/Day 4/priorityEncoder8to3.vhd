@@ -1,16 +1,17 @@
+-- Modelling : ?
 library IEEE;
 use IEEE.STD_LOGIC_1164.all;      
 use ieee.numeric_std.all;
 
-entity penc2 is
+entity priorityEncoder8to3 is
      port(
          a : in STD_LOGIC_VECTOR(7 downto 0);
          b : out STD_LOGIC_VECTOR(2 downto 0)
          );
-end penc2;
+end priorityEncoder8to3;
 
 
-architecture func of penc2 is
+architecture func of priorityEncoder8to3 is
 begin
 
      process (a) 
