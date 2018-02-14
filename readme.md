@@ -1,16 +1,22 @@
-#Update as of 12/02/2018
+# 4th Sem Laboratory Manual
 
-Computer Architecture
--Upto Encoder & Decoder
-$- Mux, Priority Encoder, Magnitude Comparator
+## Computer Architecture
+- Basic Gates plus XOR,X-NOR
+- Half Adder & Full Adder
+- Encoder & Decoder
+- **TO BE UPDATED** Mux, Priority Encoder, Magnitude Comparator
 
-Matlab
--Upto SSB-SC
+## Matlab
+- Amplitude Modulation & Demodulation
+- **TO BE UPDATED** DSB-SC
+- Upto SSB-SC
 
-Numerical
--Newton Raphson
--Bisection
--Regula Falsi 
+## Numerical
+- Newton Raphson
+- Bisection
+- Regula Falsi 
 
-Visual Basic
--Day 2 
+## Visual Basic
+- Vary Dimension of a Circle
+- Calculation of BMI
+- Marks Distribution
