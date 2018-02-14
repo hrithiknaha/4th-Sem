@@ -11,7 +11,7 @@ library ieee;
         
     architecture func of mux3 is
         begin
-            process(A,B,C,D,E,F,G,H,S)
+            process(A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,S)
                 begin
                     if(S="0000") then
                         Z<=A;
