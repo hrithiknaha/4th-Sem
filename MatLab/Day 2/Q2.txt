@@ -1,3 +1,5 @@
+Q2 Use the same code thrice for Under,over and Critical Modulation
+
 clear all;
 close all;
 clc;

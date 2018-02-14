@@ -1,3 +1,5 @@
+Q1; Modulated Demodulated AM
+
 clear all;
 close all;
 clc;
