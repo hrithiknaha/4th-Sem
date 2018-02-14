@@ -5,18 +5,21 @@
 - Basic Gates plus XOR,X-NOR
 - Half Adder & Full Adder
 - Encoder & Decoder
-- Mux, Priority Encoder, Magnitude Comparator
+- Mux, Priority Encoder, Magnitude 
+Comparator
+- Demux
 
 ## Matlab
 **With Outputs**
 - Amplitude Modulation & Demodulation
 - DSB-SC
-- Upto SSB-SC
+- SSB-SC
 
 ## Numerical
 - Newton Raphson
 - Bisection
 - Regula Falsi 
+- Trapezoidal 
 
 ## Visual Basic
 - Vary Dimension of a Circle
