@@ -1,14 +1,16 @@
 # 4th Sem Laboratory Manual
 
 ## Computer Architecture
+**With Outputs**
 - Basic Gates plus XOR,X-NOR
 - Half Adder & Full Adder
 - Encoder & Decoder
-- **TO BE UPDATED** Mux, Priority Encoder, Magnitude Comparator
+- Mux, Priority Encoder, Magnitude Comparator
 
 ## Matlab
+**With Outputs**
 - Amplitude Modulation & Demodulation
-- **TO BE UPDATED** DSB-SC
+- DSB-SC
 - Upto SSB-SC
 
 ## Numerical
