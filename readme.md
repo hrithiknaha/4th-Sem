@@ -16,6 +16,7 @@ Comparator
 - SSB-SC
 
 ## Numerical
+**With Outputs**
 - Newton Raphson
 - Bisection
 - Regula Falsi 
