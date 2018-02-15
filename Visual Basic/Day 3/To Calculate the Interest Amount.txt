@@ -1,0 +1,11 @@
+Dim f,d,i,m As Single
+Private Sub Command1_Click()
+d=InputBox ("Enter Monthly Deposit Amount:")
+Label4.Caption=d
+i=InputBox ("Enter Monthly Rate:")
+Label5.Caption=i
+m=InputBox ("Enter Tenure (In MONTHS):")
+Label6.Caption=m
+f=d*((i+1)*m-1)/i
+MsgBox("The Final Amount is :"&f)
+End Sub

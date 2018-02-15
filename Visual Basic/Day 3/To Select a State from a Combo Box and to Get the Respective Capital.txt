@@ -1,0 +1,16 @@
+private sub combo1_click()
+If. Combo1.Text="West Bengal" Then
+MsgBox("Kolkata")
+If. Combo1.Text="Maharashtra" Then
+MsgBox("Mumbai")
+If. Combo1.Text="Himachal Pradesh" Then
+MsgBox("Shimla")
+else
+end if
+end sub
+
+private sub Form_Load()
+Combo1.AddItem "West Bengal"
+Combo1.AddItem "Maharashtra"
+Combo1.AddItem "Himachal Pradesh"
+end sub

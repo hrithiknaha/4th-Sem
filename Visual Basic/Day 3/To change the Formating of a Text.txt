@@ -1,0 +1,38 @@
+private sub check1_click()
+if check1.value=1 then
+text1.FontBold =true
+else
+text1.FontBold=false
+end if
+end sub
+
+private sub check2_click()
+if check1.value=1 then
+text1.FontItalic =true
+else
+text1.FontItalic=false
+end if
+end sub
+
+private sub check3_click()
+if check1.value=1 then
+text1.FontSize =10
+else
+text1.FontSize=8
+end if
+end sub
+
+private sub form_load()
+a= InputBox("Enter Your Name")
+Text1.Text=a
+Text1.FontSize=8
+end sub
+
+private sub check1_click()
+if check1.value=1 then
+text1.fontBold =true
+else
+text1.fontBold=false
+end if
+end sub
+
