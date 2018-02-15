@@ -26,3 +26,7 @@ Comparator
 - Vary Dimension of a Circle
 - Calculation of BMI
 - Marks Distribution
+- Interest of Amount
+- Capital Selection from Combo Box
+- Add item and to Delete them from List Box
+- Change formating of Text by Check Boxes
