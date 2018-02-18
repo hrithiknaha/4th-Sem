@@ -1,0 +1,11 @@
+Q1
+Private Sub Option1_Click(Index As Integer)
+    Textgen.Text = "Male"
+    Textgen.FontBold = True
+End Sub
+
+Private Sub Option2_Click(Index As Integer)
+    Textgen.Text = "Female"
+   
+ Textgen.FontBold = True
+End Sub

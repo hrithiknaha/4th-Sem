@@ -8,6 +8,8 @@
 - Mux, Priority Encoder, Magnitude 
 Comparator
 - Demux
+- Parity Generator
+- Parity Checker
 
 ## Matlab
 **With Outputs**
@@ -30,3 +32,7 @@ Comparator
 - Capital Selection from Combo Box
 - Add item and to Delete them from List Box
 - Change formating of Text by Check Boxes
+- Multiplication Table
+- Selective Bold on checking Checkboxes
+- Validity of a Number
+- Validity of a Number until satisfied

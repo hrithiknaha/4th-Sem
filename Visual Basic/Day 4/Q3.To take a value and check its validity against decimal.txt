@@ -1,0 +1,50 @@
+Q3
+
+Dim n, n1, n2, s, c, x As Integer
+Dim flag, status As Boolean
+
+Private Sub Command1_Click(Index As Integer)
+
+    n1 = n
+    flag = False
+    Do While n1 > 0 And flag = False
+        x = n1 Mod 10
+        If x > 1 Then
+            flag = True
+        End If
+        n1 = n1 / 10
+    Loop
+    If flag = True Then
+        MsgBox ("INVALID BINARY NUMBER")
+        status = False
+    Else
+        MsgBox ("VALID BINARY NUMBER")
+        status = True
+    End If
+    
+End Sub
+
+Private Sub Command2_Click(Index As Integer)
+
+    If status = True Then
+        n2 = n
+        c = 0
+        s = 0
+        Do While n2 > 0
+            x = n2 Mod 10
+            s = s + (x * (2 ^ c))
+            c = c + 1
+            n2 = n2 / 10
+        Loop
+        MsgBox ("The Decimal value of " & n & " is " & s)
+    Else
+        MsgBox ("First check the number or the number is not valid")
+    End If
+
+End Sub
+
+Private Sub Form_Load()
+    
+    n = InputBox("Enter the binary number: ")
+        
+End Sub

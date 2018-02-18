@@ -1,0 +1,9 @@
+Q2
+Private Sub Command1_Click()
+    a = 1
+    b = Val(Text1.Text)
+    Do While a <= 10
+       List1.AddItem (b & " * " & a & " = " & b * a)
+       a = a + 1
+    Loop
+End Sub
