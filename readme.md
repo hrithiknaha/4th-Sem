@@ -22,7 +22,7 @@ Comparator
 - Newton Raphson
 - Bisection
 - Regula Falsi 
-- Trapezoidal 
+- Trapezoidal --WITH ALGORITHM
 
 ## Visual Basic
 - Vary Dimension of a Circle
