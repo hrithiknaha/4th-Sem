@@ -22,7 +22,8 @@ Comparator
 - Newton Raphson
 - Bisection
 - Regula Falsi 
-- Trapezoidal --WITH ALGORITHM
+- Trapezoidal **WITH ALGORITHM**
+- Simpson's 1/3 **WITH ALGORITHM**
 
 ## Visual Basic
 - Vary Dimension of a Circle
