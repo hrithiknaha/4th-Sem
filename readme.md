@@ -1,5 +1,8 @@
 # 4th Sem Laboratory Manual
 
+## Contains QA and Output of all the labs! Click on Veiw Code.
+
+
 ## Computer Architecture
 **With Outputs**
 - Basic Gates plus XOR,X-NOR
