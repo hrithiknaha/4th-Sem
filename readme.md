@@ -10,9 +10,9 @@
 - Encoder & Decoder
 - Mux, Priority Encoder, Magnitude 
 Comparator
-- Demux
-- Parity Generator
-- Parity Checker
+- Demux **WITH THEORY**
+- Parity Generator **WITH THEORY**
+- Parity Checker **WITH THEORY**
 
 ## Matlab
 **With Outputs**
