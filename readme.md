@@ -13,6 +13,7 @@ Comparator
 - Demux **WITH THEORY**
 - Parity Generator **WITH THEORY**
 - Parity Checker **WITH THEORY**
+- SR,JK,T and D Flip Flop
 
 ## Matlab
 **With Outputs**
