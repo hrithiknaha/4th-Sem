@@ -20,6 +20,7 @@ Comparator
 - Amplitude Modulation & Demodulation
 - DSB-SC
 - SSB-SC
+- Frequency Modulation & Demodulation
 
 ## Numerical
 **With Outputs**
