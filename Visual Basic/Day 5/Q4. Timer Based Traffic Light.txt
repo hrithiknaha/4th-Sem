@@ -1,0 +1,29 @@
+Private Sub Timer1_Timer()
+Static state As Integer
+Select Case state
+Case 0
+Shape3.Visible = True
+Shape4.Visible = False
+Shape5.Visible = False
+Label2.Caption = "Stop"
+Label2.ForeColor = vbRed
+Timer1.Interval = 2000
+state = 1
+Case 1
+Shape3.Visible = False
+Shape4.Visible = True
+Shape5.Visible = False
+Label2.Caption = "Wait"
+Label2.ForeColor = vbYellow
+Timer1.Interval = 1000
+state = 2
+Case 2
+Shape3.Visible = False
+Shape4.Visible = False
+Shape5.Visible = True
+Label2.Caption = "GO"
+Label2.ForeColor = vbGreen
+Timer1.Interval = 1000
+state = 0
+End Select
+End Sub

@@ -44,3 +44,7 @@ Comparator
 - Selective Bold on checking Checkboxes
 - Validity of a Number
 - Validity of a Number until satisfied
+- Print Pattern **WITH OUTPUT**  
+- Print Character Pattern **WITH OUTPUT**
+- Submit and Retrieve Data from Different **WITH OUTPUT** Forms
+- Timer Based Traffic Light **WITH OUTPUT**
