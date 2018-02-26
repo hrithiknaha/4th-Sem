@@ -46,5 +46,5 @@ Comparator
 - Validity of a Number until satisfied
 - Print Pattern **WITH OUTPUT**  
 - Print Character Pattern **WITH OUTPUT**
-- Submit and Retrieve Data from Different **WITH OUTPUT** Forms
+- Submit and Retrieve Data from Different  Forms **WITH OUTPUT**
 - Timer Based Traffic Light **WITH OUTPUT**
