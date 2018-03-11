@@ -21,6 +21,8 @@ Comparator
 - DSB-SC
 - SSB-SC
 - Frequency Modulation & Demodulation
+- Phase Modulation
+- Amplitude Shift Keying Modulation
 
 ## Numerical
 **With Outputs**
