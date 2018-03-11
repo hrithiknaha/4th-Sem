@@ -31,6 +31,8 @@ Comparator
 - Simpson's 1/3 **WITH ALGORITHM**
 - Euler's Method **WITH ALGORITHM**
 - Euler's Modified Method **WITH ALGORITHM**
+- Runge-Kutta Method **WITH ALGORITHM**
+
 
 ## Visual Basic
 - Vary Dimension of a Circle
