@@ -22,7 +22,8 @@ Comparator
 - SSB-SC
 - Frequency Modulation & Demodulation
 - Phase Modulation
-- Amplitude Shift Keying Modulation
+- Amplitude Shift Keying Modulation & Demodulation **Demodulation in Day 7**
+- Frequency Shift Keying Modulation & Demodulation
 
 ## Numerical
 **With Outputs**
