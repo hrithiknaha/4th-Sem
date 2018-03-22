@@ -1,0 +1,63 @@
+Private Sub Command1_Click()
+Dim v As Integer
+v = Val(Text1.Text)
+List1.Clear
+Call Table(v)
+End Sub
+
+Private Sub Table(ByVal n As Integer)
+Dim i As Integer
+i = 1
+Do While i < 11
+    List1.AddItem n * i
+    i = i + 1
+Loop
+End Sub
+
+Private Sub Command2_Click()
+Dim v1, v2 As Integer
+v1 = Val(Text2.Text)
+v2 = Val(Text3.Text)
+MsgBox "before swapping " & v1 & " and " & v2
+Call swapbyval(v1, v2)
+End Sub
+
+Private Sub swapbyval(ByVal n1, n2 As Integer)
+Dim c As Integer
+c = n1
+n1 = n2
+n2 = c
+MsgBox "after swapping " & n1 & " and " & n2
+End Sub
+
+Private Sub Command3_Click()
+Dim v As Integer
+v = Val(Text4.Text)
+Call fact(v)
+End Sub
+Private Sub fact(n As Integer)
+Dim i As Integer
+i = n - 1
+Do While i > 1
+    n = n * i
+    i = i - 1
+Loop
+Text5.Text = n
+End Sub
+
+
+Private Sub Command4_Click()
+Dim v1, v2 As Integer
+v1 = Val(Text6.Text)
+v2 = Val(Text7.Text)
+MsgBox "before swapping " & v1 & " and " & v2
+Call swapbyref(v1, v2)
+End Sub
+
+Private Sub swapbyref(ByRef n1, n2 As Integer)
+Dim c As Integer
+c = n1
+n1 = n2
+n2 = c
+MsgBox "after swapping " & n1 & " and " & n2
+End Sub

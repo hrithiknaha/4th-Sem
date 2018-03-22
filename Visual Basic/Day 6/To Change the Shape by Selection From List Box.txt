@@ -1,0 +1,31 @@
+Private Sub Command1_Click()
+CommonDialog1.Flags = &H1&
+CommonDialog1.ShowColor
+Shape1.FillColor = CommonDialog1.Color
+End Sub
+
+Private Sub Form_Load()
+List1.AddItem "Rectangle"
+List1.AddItem "Square"
+List1.AddItem "Oval"
+List1.AddItem "Circle"
+List1.AddItem "Rounded Rectangle"
+List1.AddItem "Rounded Square"
+End Sub
+
+Private Sub List1_Click()
+Select Case List1.ListIndex
+    Case 0
+        Shape1.Shape = 0
+    Case 1
+        Shape1.Shape = 1
+    Case 2
+        Shape1.Shape = 2
+    Case 3
+        Shape1.Shape = 3
+    Case 4
+        Shape1.Shape = 4
+    Case 5
+        Shape1.Shape = 5
+End Select
+End Sub

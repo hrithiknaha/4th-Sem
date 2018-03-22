@@ -54,3 +54,7 @@ Comparator
 - Print Character Pattern **WITH OUTPUT**
 - Submit and Retrieve Data from Different  Forms **WITH OUTPUT**
 - Timer Based Traffic Light **WITH OUTPUT**
+- Chnage shape of Object **WITH OUTPUT**
+- Call By Refernce **WITH OUTPUT**
+- Call By Value **WITH OUTPUT**
+- FrameBox CBV,CBR,Factorial **WITH OUTPUT**

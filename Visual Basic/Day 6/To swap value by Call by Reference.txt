@@ -1,0 +1,11 @@
+Private Sub Command1_Click()
+Dim a As Integer
+a = 5
+MsgBox "before calling" & a
+Call square(a)
+MsgBox "after calling" & a
+End Sub
+Private Sub square(ByRef num As Integer)
+num = num * num
+MsgBox "inside procedure" & num
+End Sub
