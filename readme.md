@@ -24,6 +24,8 @@ Comparator
 - Phase Modulation
 - Amplitude Shift Keying Modulation & Demodulation **Demodulation in Day 7**
 - Frequency Shift Keying Modulation & Demodulation
+- BPSK Modulation & Demodulation
+- PAN Modulation
 
 ## Numerical
 **With Outputs**
