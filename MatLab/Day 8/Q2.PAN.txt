@@ -3,24 +3,23 @@ close all;
 clear all;
 a = input('Enter the amplitude = ');
 f = input('Enter the frequency  = ');
-t = 0:0.02:2; % for a total of 16 samples
-x1 = 1; %generation of an impulse signal
-x2 = a*sin(2*pi*f*t); %generation of sine wave
+t = 0.1:0.001:1; 
+x1 = 1; 								%generation of an impulse signal
+x2 = a*sin(2*pi*f*t); 
 y = x1.*x2; %modulation step
-subplot(3,1,1); %for impulse signal plot
+subplot(3,1,1); 
 stem(x1);
 title('Impulse Signal');
 xlabel('Time');
 ylabel('Amplitude ');
-subplot(3,1,2) %for sine wave plot
+subplot(3,1,2) 
 plot(t,x2); 
 title('Sine Wave');
 xlabel('Time ');
 ylabel('Amplitude ');
-subplot(3,1,3) %for PAM wave plot
+subplot(3,1,3) 
 stem(t,y);
 title('PAM Wave');
 xlabel('Time');
 ylabel('Amplitude');
 
-Read more: http://www.divilabs.com/2014/04/simulation-generation-of-pam-signal.html#ixzz5AAr1sU3t
