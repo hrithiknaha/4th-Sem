@@ -38,6 +38,7 @@ Comparator
 - Euler's Modified Method **WITH ALGORITHM**
 - Runge-Kutta Method **WITH ALGORITHM**
 - Gauss Seidal Method **WITH ALGORITHM**
+- Gauss Elimination Method **WITH ALGORITHM**
 
 
 ## Visual Basic
