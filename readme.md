@@ -22,6 +22,8 @@ Comparator
 - Gray to Binary
 - BCD to Excess-3
 - Excess-3 to BCD
+- 4 Bit ALU
+- 8 Bit Alu
 
 ## Matlab
 **With Outputs**
