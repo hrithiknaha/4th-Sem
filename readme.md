@@ -14,6 +14,14 @@ Comparator
 - Parity Generator **WITH THEORY**
 - Parity Checker **WITH THEORY**
 - SR,JK,T and D Flip Flop
+- SR,JK,T and D Flip Flop With Clock
+- Parallel Adder
+- Carry Look Ahead Adder
+- BCD Adder
+- Binary to Gray
+- Gray to Binary
+- BCD to Excess-3
+- Excess-3 to BCD
 
 ## Matlab
 **With Outputs**
