@@ -1,0 +1,48 @@
+%PAM Flat Top Sampling %
+clc
+close all;
+clear
+fc = 20;			 %carrier frequency
+fm = 2; 			 % message frequency
+fs = 1000;			 % sampling frequency
+t = 1;
+n = [0:1/fs:t]; 					% Now the number of points are 1001
+n = n(1:end - 1);					 % Makes sure the number of data points are 1000
+duty = 20; 						% Duty cycle: tells us the percentage of square pulse is +1
+s = square(2*pi*fc*n,duty); 				% Generate square wave %
+s(find(s<0)) = 0; 					% Make sure the value is always >0
+							%If we use s = 0.5*square(2*pi*fc*n,duty)+0.5 then the above line is redundant
+m = sin(2*pi*fm*n);		 			% Message Signal
+period_samp = length(n)/fc;				% Total number of points indicating one pulse, period of pulse if 0.05.
+							% So 1000*0.05 = 50 points indicate one pulse %
+ind = [1:period_samp:length(n)];			 % array of step size 50
+on_samp = ceil(period_samp * duty/100); 		% 50*20/100 = 10 points are +1 since duty cycle is 20%,
+							% remaining 40 points are all zeros
+pam=zeros(1,length(n));					
+% Generate the PAM signal %
+for i = 1 : length(ind)
+ pam(ind(i):ind(i) + on_samp) = m(ind(i));
+end
+subplot(2,2,1);plot(n,s);ylim([-0.2 1.2]);
+title('Impulse train')
+xlabel('timeperiod');
+ylabel('amplitude');
+subplot(2,2,2);plot(n,m);ylim([-1.2 1.2]);
+title('Mesage signal')
+xlabel('timeperiod');
+ylabel('amplitude');
+subplot(2,2,3);plot(n,pam);ylim([-1.2 1.2]);
+title('Modulated signal');
+xlabel('timeperiod');
+ylabel('amplitude');
+% Demodulation %
+dt=s.*pam;
+filter=fir1(200,fm/fs,'low'); 					% FIR filter Design
+demod_signal=conv(filter,dt); 					% Convolution between filter coefficient and dt
+t1=linspace(0,1,length(demod_signal));
+								% we need to generate a seperate time array to match the number of entries in demod_signal
+subplot(2,2,4)
+plot(t1,demod_signal);
+title('Demodulated signal');
+xlabel('timeperiod');
+ylabel('amplitude');
