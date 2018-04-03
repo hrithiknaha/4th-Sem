@@ -36,6 +36,10 @@ Comparator
 - Frequency Shift Keying Modulation & Demodulation
 - BPSK Modulation & Demodulation
 - PAN Modulation
+- PAN Width Modulation; *Normal*
+- PAN Width Modulation; *Flat*
+- PAN Message Modulation
+- PAN Code Modulation
 
 ## Numerical
 **With Outputs**
@@ -49,6 +53,7 @@ Comparator
 - Runge-Kutta Method **WITH ALGORITHM**
 - Gauss Seidal Method **WITH ALGORITHM**
 - Gauss Elimination Method **WITH ALGORITHM**
+- Lagrange Interpolation **WITH ALGORITHM**
 
 
 ## Visual Basic
@@ -71,3 +76,4 @@ Comparator
 - Call By Refernce **WITH OUTPUT**
 - Call By Value **WITH OUTPUT**
 - FrameBox CBV,CBR,Factorial **WITH OUTPUT**
+- Array FrameWork **WITH OUTPUT**
