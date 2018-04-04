@@ -24,6 +24,7 @@ Comparator
 - Excess-3 to BCD
 - 4 Bit ALU
 - 8 Bit ALU
+- 8 Bit Adder
 
 ## Matlab
 **With Outputs**
