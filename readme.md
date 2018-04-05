@@ -25,6 +25,10 @@ Comparator
 - 4 Bit ALU
 - 8 Bit ALU
 - 8 Bit Adder
+- 4 Bit up Counter
+- 4 Bit down Counter
+- 4 Bit Up/Down Counter
+- Modulus-3 Counter
 
 ## Matlab
 **With Outputs**
