@@ -59,6 +59,7 @@ Comparator
 - Gauss Seidal Method **WITH ALGORITHM**
 - Gauss Elimination Method **WITH ALGORITHM**
 - Lagrange Interpolation **WITH ALGORITHM**
+- Forward Interpolation **WITH ALGORITHM**
 
 
 ## Visual Basic
