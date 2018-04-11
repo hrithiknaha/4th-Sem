@@ -29,6 +29,7 @@ Comparator
 - 4 Bit down Counter
 - 4 Bit Up/Down Counter
 - Modulus-3 Counter
+- Boot's Multiplication
 
 ## Matlab
 **With Outputs**
