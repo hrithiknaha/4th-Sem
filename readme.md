@@ -46,6 +46,7 @@ Comparator
 - PAN Width Modulation; *Flat*
 - PAN Message Modulation
 - PAN Code Modulation
+- **HARDWARE ASK**
 
 ## Numerical
 **With Outputs**
@@ -61,6 +62,8 @@ Comparator
 - Gauss Elimination Method **WITH ALGORITHM**
 - Lagrange Interpolation **WITH ALGORITHM**
 - Forward Interpolation **WITH ALGORITHM**
+- Backward Interpolation **WITH ALGORITHM**
+
 
 
 ## Visual Basic
