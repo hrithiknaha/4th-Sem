@@ -30,6 +30,8 @@ Comparator
 - 4 Bit Up/Down Counter
 - Modulus-3 Counter
 - Boot's Multiplication
+- Restoring Device
+- Non-Restoring Device
 
 ## Matlab
 **With Outputs**
