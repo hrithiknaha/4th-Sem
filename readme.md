@@ -45,11 +45,11 @@ Comparator
 - Amplitude Shift Keying Modulation & Demodulation **Demodulation in Day 7**
 - Frequency Shift Keying Modulation & Demodulation
 - BPSK Modulation & Demodulation
-- PAN Modulation
-- PAN Width Modulation; *Normal*
-- PAN Width Modulation; *Flat*
-- PAN Message Modulation
-- PAN Code Modulation
+- PAM Modulation
+- PAM Modulation; *Normal-Type*
+- PAM Modulation; *Flat-Type*
+- Pulse Width Modulation
+- Pulse Code Modulation
 - **HARDWARE ASK**
 
 ## Numerical
